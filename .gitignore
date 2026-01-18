@@ -1,0 +1,41 @@
+# Python virtual environments
+.venv-invicto/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Mutation testing caches
+.mutmut-cache
+.pytest_cache/
+
+# Pipeline intermediate outputs
+temp_results/
+
+# Generated outputs (reproducible from pipeline)
+benchmark_results_*.csv
+statistical_analysis.json
+generated/
+
+# Test suite directories are tracked in git
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log

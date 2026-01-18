@@ -1,0 +1,9 @@
+# INVICTO test validation environment
+pytest==8.2.0
+mutmut==2.5.0
+pytest-mock==3.14.0
+PyYAML==6.0.1
+colorama==0.4.6
+requests==2.31.0
+SQLAlchemy==2.0.29
+PySide6==6.6.3
